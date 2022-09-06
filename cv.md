@@ -21,3 +21,47 @@ I chose front-end because I am visual, so I need to see the result of my work - 
 4. Team player
 5. I can in time management
 6. Meticulousness and perseverance
+
+## Scils
+
+- HTML
+- CSS
+- JS
+- Git/GitHub
+
+## Code Examples
+
+```
+function cakes(recipe, available) {
+  let intArr = [];
+  let trueArr = [];
+  let recArr = Object.keys(recipe).map((key) => key);
+  let isKey = recArr.filter((key) => {
+    if (available.hasOwnProperty(key) == true) {
+      trueArr.push(key);
+    }
+  });
+  if (recArr.length > trueArr.length) {
+    return 0;
+  }
+  for (let i = 0; i < trueArr.length; i++) {
+    intArr.push(Math.floor(available[trueArr[i]] / recipe[trueArr[i]]));
+  }
+  intArr.sort();
+  return intArr[0];
+}
+```
+
+## Work experience:
+
+No IT experience currently
+
+## Education and courses:
+
+- CSS, HTML: video course by Dmitry Valak "Fundamentals of creating sites. HTML and CSS for beginners"
+- JavaScript: video course by Bogdan Stashchuk "Complete course in JavaScript" and https://learn.javascript.ru/
+- Git/GitHub: video course by Bogdan Stashchuk "Complete course Git and GitHub for Beginners"
+
+## Language:
+
+English level - A2
