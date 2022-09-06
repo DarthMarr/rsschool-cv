@@ -1,1 +1,1 @@
-https://DarthMarr.github.io/rsschool-cv/cv
+https://DarthMarr.github.io/rsschool-cv/
