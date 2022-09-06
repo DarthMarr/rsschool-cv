@@ -64,4 +64,4 @@ No IT experience currently
 
 ## Language:
 
-English level - A2
+English level: A-2
